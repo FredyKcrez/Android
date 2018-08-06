@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CR11005Utilidades</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+        <string name="title_activity_audio">Audio</string>
+        <string name="title_activity_camara">Camara</string>
+        <string name="title_activity_gps">GPS</string>
+        <string name="title_activity_speech">Speech</string>
+        <string name="title_activity_text_to_speech">TextToSpeech</string>
+        <string name="title_activity_video">Video</string>
+        <string name="btnplay">Play </string>
+        <string name="btnstop">Stop </string>
+        <string name="mensajevideo">Haga Click arriba de este mensaje</string>
+        <string name="imagen1">Imagen</string>
+        <string name="boton1">Tomar foto</string>
+        <string name="txtAltitud">Altitud </string>
+        <string name="txtLatitud">Latitud </string>
+        <string name="txtLongitud">Longitud </string>
+        <string name="txtDireccion">Direccion </string>
+        <string name="btnObtenerDatos">Obtener Datos Posicion </string>
+        <string name="edt_tts">Escriba algo</string>
+        <string name="btn_tts1">Escuchar</string>
+        <string name="btn_tts2">Guardar</string>
+        <string name="btnTalk">Hable</string>
+</resources>

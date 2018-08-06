@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:stretchColumns="1" >
+    <TableRow>
+        <TextView android:text="Numero de Fecha" />
+        <EditText
+            android:id="@+id/editNumFecha"
+            android:inputType="text"
+            android:maxLength="2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Codigo Equipo" />
+        <EditText
+            android:id="@+id/editCodEquipo"
+            android:inputType="text"
+            android:maxLength="3" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Goles a favor" />
+        <EditText
+            android:id="@+id/editGolAF"
+            android:inputType="numberDecimal" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Goles en contra" />
+        <EditText
+            android:id="@+id/editGolEC"
+            android:inputType="numberDecimal" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Rival" />
+        <EditText
+            android:id="@+id/editRival"
+            android:inputType="text"
+            android:maxLength="30" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="actualizarPC"
+            android:text="Actualizar" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="limpiarTexto"
+            android:text="Limpiar" />
+    </TableRow>
+</TableLayout>

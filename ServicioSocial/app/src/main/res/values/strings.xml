@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ServicioSocial</string>
+    <string name="hello_world">SISTEMA SERVICIO SOCIAL</string>
+    <string name="action_settings">Settings</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="IngresarSistema">Ingresar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_control_bd">ControlBD</string>
+    <string name="title_activity_proyecto_actualizar">ProyectoActualizarActivity</string>
+    <string name="title_activity_proyecto_eliminar">ProyectoEliminarActivity</string>
+    <string name="title_activity_proyecto_consultar">ProyectoConsultarActivity</string>
+    <string name="title_activity_proyecto_insertar">ProyectoInsertarActivity</string>
+    <string name="title_activity_tipo_proyecto_actualizar">TipoProyectoActualizarActivity</string>
+    <string name="title_activity_tipo_proyecto_consultar">TipoProyectoConsultarActivity</string>
+    <string name="title_activity_tipo_proyecto_insertar">TipoProyectoInsertarActivity</string>
+    <string name="title_activity_tipo_proyecto_eliminar">TipoProyectoEliminarActivity</string>
+    <string name="title_activity_proyecto_menu">ProyectoMenuActivity</string>
+    <string name="title_activity_tipo_proyecto_menu">TipoProyectoMenuActivity</string>
+    <string name="codigo">Codigo</string>
+    <string name="tipo">Tipo</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="insertar">Insertar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="consultar">Consultar</string>
+    <string name="proyecto">Proyecto</string>
+    <string name="encargado">Encargado</string>
+    <string name="entidad">Entidad</string>
+    <string name="tutor">Tutor</string>
+    <string name="cantidadalumnos"># Alumnos</string>
+    <string name="codigotipoproyecto">Codigo Tipo Proyecto</string>
+    <string name="tipoproyecto">Tipo Proyecto</string>
+    <string name="codigoproyecto">Codigo Proyecto</string>
+    <string name="title_activity_entidad_actualizar">EntidadActualizarActivity</string>
+    <string name="title_activity_entidad_eliminar">EntidadEliminarActivity</string>
+    <string name="title_activity_entidad_insertar">EntidadInsertarActivity</string>
+    <string name="title_activity_entidad_consultar">EntidadConsultarActivity</string>
+    <string name="title_activity_entidad_menu">EntidadMenuActivity</string>
+    <string name="title_activity_especialidad_menu">EspecialidadMenuActivity</string>
+    <string name="title_activity_especialidad_actualizar">EspecialidadActualizarActivity</string>
+    <string name="title_activity_especialidad_eliminar">EspecialidadEliminarActivity</string>
+    <string name="title_activity_especialidad_consultar">EspecialidadConsultarActivity</string>
+    <string name="title_activity_especialidad_insertar">EspecialidadInsertarActivity</string>
+    <string name="entidad_menu">Función a Ejecutar Entidad</string>
+    <string name="especialidad_menu">Función a Ejecutar Especialidad</string>
+    <string name="insertar_registro">Insertar Registro</string>
+    <string name="eliminar_registro">Eliminar Registro</string>
+    <string name="consultar_registro">Consultar Registro</string>
+    <string name="actualizar_registro">Actualizar Registro</string>
+    <string name="nombre_organizacion">Nombre Organizacion</string>
+    <string name="codigo_org">Codigo Organizacion</string>
+    <string name="rubro">Rubro</string>
+    <string name="telefono">Telefono</string>
+    <string name="direccion">Direccion</string>
+    <string name="codigo_esp">Codigo Especialidad</string>
+    <string name="nombre_esp">Nombre Especialidad</string>
+    <string name="cantidad_estudiantes">Cantidad Estudiantes</string>
+    <string name="opciones">Opciones:</string>
+    <string name="codModalidad">Codigo Modalidad</string>
+    <string name="nombModalidad">Nombre Modalidad</string>
+    <string name="codTipoActividad">Codigo TipoActividad</string>
+    <string name="nombTipoActividad">Nombre del TipoActividad</string>
+    <string name="idactividad">Codigo Actividad</string>
+    <string name="act">Actividad</string>
+    <string name="fecha">Fecha</string>
+    <string name="inthoras">Numero de Horas</string>
+    <string name="comentari">Comentario</string>
+    <string name="costo">Costo x Hora</string>
+    <string name="costoxhora">Costo por hora</string>
+    <string name="title_activity_modalidad_menu">ModalidadManuActivity</string>
+    <string name="title_activity_modalidad_actualizar">ModalidadActualizarActivity</string>
+    <string name="title_activity_modalidad_consultar">ModalidadConsultarActivity</string>
+    <string name="title_activity_modalidad_eliminar">ModalidadEliminarActivity</string>
+    <string name="title_activity_modalidad_insertar">ModalidadInsertarActivity</string>
+    <string name="title_activity_tipo_actividad_actualizar">TipoActividadActualizarActivity</string>
+    <string name="title_activity_tipo_actividad_consultar">TipoActividadConsultarActivity</string>
+    <string name="title_activity_tipo_actividad_eliminar">TipoActividadEliminarActivity</string>
+    <string name="title_activity_tipo_actividad_insertar">TipoActividadInsertarActivity</string>
+    <string name="title_activity_tipo_actividad_menu">TipoActividadMenuActivity</string>
+    <string name="title_activity_encarg_s">EncargSActivity</string>
+    <string name="title_activity_encarg_sactualizar">EncargSActualizarActivity</string>
+    <string name="title_activity_encarg_sconsultar">EncargSConsultarActivity</string>
+    <string name="title_activity_encarg_seliminar">EncargSEliminarActivity</string>
+    <string name="title_activity_encarg_sinsertar">EncargSInsertarActivity</string>
+    <string name="title_activity_tutor_actualizar">TutorActualizarActivity</string>
+    <string name="title_activity_tutor_consultar">TutorConsultarActivity</string>
+    <string name="title_activity_tutor_eliminar">TutorEliminarActivity</string>
+    <string name="title_activity_tutor_insertar">TutorInsertarActivity</string>
+    <string name="title_activity_tutor_menu">TutorMenuActivity</string>
+    <string name="tutor_menu">Funcion a ejecutar Tutor</string>
+    <string name="encarg_s_menu">Funcion a ejecutar Encargado Servicio Social</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="codtutor">Codigo Tutor</string>
+    <string name="codespecial">Codigo Especialidad</string>
+    <string name="cargo">Cargo</string>
+    <string name="correo">Correo</string>
+    <string name="sexo">Sexo</string>
+    <string name="codencarg">Codigo Encargado</string>
+
+
+    <color name="color_menu">#8FBC8B</color>
+    <color name="color_menu1">#FFFFFF</color>
+    <color name="gris">#FFF0FF</color>
+    <color name="verde">#8FBC8B</color>
+    <color name="negro">#000000</color>
+    <string name="msjFoto">Teclea en la imagen para agregar una fotografia</string>
+    <string name="imagen1">imagen</string>
+    <string name="generoM">Masculino</string>
+    <string name="generoF">Femenino</string>
+
+    <string name="title_activity_consultar_actividad">ConsultarActividad</string>
+    <string name="title_activity_consultar_alum__pro">ConsultarAlum_Pro</string>
+    <string name="title_activity_consultar_alumno">ConsultarAlumno</string>
+    <string name="title_activity_eliminar_actividad">EliminarActividad</string>
+    <string name="title_activity_eliminar_alum__pro">EliminarAlum_Pro</string>
+    <string name="title_activity_eliminar_alumno">EliminarAlumno</string>
+    <string name="title_activity_ingresar_alumno">IngresarAlumno</string>
+    <string name="title_activity_insertar_actividad">InsertarActividad</string>
+    <string name="title_activity_insertar_alum__pro">InsertarAlum_Pro</string>
+    <string name="title_activity_main_alumno">MainAlumno</string>
+    <string name="title_activity_main_alumno_proyecto">MainAlumnoProyecto</string>
+    <string name="title_activity_menu_actividad">MenuActividad</string>
+    <string name="title_activity_modificar_actividad">ModificarActividad</string>
+    <string name="title_activity_modificar_alum__pro">ModificarAlum</string>
+    <string name="title_activity_modificar_alumno">ModificarAlumno</string>
+    <string name="title_activity_mostrar_actividad">MostrarActividad</string>
+    <string name="title_activity_mostrar_alum__pro">MostrarAlum_Pro</string>
+    <string name="title_activity_mostrar_alumno">MostrarAlumno</string>
+
+    <string-array name="generos">
+        <item>F</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="listCarreras">
+        <item>Arquitectura</item>
+        <item>Ingenieria Civil</item>
+        <item>Ingenieria Electrica</item>
+        <item>Ingenieria Industrial</item>
+        <item>Ingenieria Quimica</item>
+        <item>Ingenieria de Sistemas Informaticos</item>
+    </string-array>
+    <string-array name="opciones">
+        <item>Consultar Estudiante</item>
+        <item>Eliminar Estudiante</item>
+        <item>Insertar Estudiante</item>
+        <item>Modificar Estudiante</item>
+    </string-array>
+    <string-array name="opciones2">
+        <item>Consultas</item>
+        <item>Eliminar Estudiante de un proyecto</item>
+        <item>Agregar Estudiante a un proyecto</item>
+        <item>Modificar Estudiante proyecto</item>
+    </string-array>
+    <string-array name="opciones3">
+        <item>Consultar Actividad</item>
+        <item>Eliminar Actividad</item>
+        <item>Insertar Actividad</item>
+        <item>Modificar Actividad</item>
+    </string-array>
+
+
+
+    <string name="carrera">Carrera</string>
+
+    <string name="matganadas">Materias Ganadas</string>
+    <string name="telefono1">Telefono 1</string>
+    <string name="telefono2">Telefono 2</string>
+    <string name="correo1">E-mail 1</string>
+    <string name="correo2">E-mail 2</string>
+
+
+    <string name="obligatorio">Campo obligatorio</string>
+    <string name="matganada">0</string>
+    <string name="codProyecto">Codigo Proyecto</string>
+    <string name="codActividad">Codigo Actividad</string>
+    <string name="carnet">Carnet</string>
+    <string name="formatoFechas">dd/mm/aa</string>
+    <string name="modificar">Modifcar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="escuchar">Escuchar Menú</string>
+    <color name="tinte">#ff37ffb5</color>
+    <string name="buscarVoz">Buscar por Voz</string>
+    <string-array name="opcionesMenu">
+        <item>Tabla Proyecto</item>
+        <item>Tabla TipoProyecto</item>
+        <item>Tabla Entidad</item>
+        <item>Tabla Especialidad</item>
+        <item>Tabla Modalidad</item>
+        <item>Tabla TipoActividad</item>
+        <item>Tabla Tutor</item>
+        <item>Tabla Encargado Servicio Social</item>
+        <item>Tabla Alumno</item>
+        <item>Tabla Alumno Proyecto</item>
+        <item>Tabla Actividad</item>
+        <item>LLenar Base de Datos</item>
+    </string-array>
+</resources>

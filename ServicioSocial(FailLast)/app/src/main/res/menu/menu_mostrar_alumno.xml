@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pdm.fia.ues.sv.serviciosocial.MostrarAlumno">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/menuAlumno"
+        android:title="Menu Principal Alumno"></item>
+    <item android:id="@+id/modificarAlumno"
+        android:title="Modificar Alumno"></item>
+    <item android:id="@+id/eliminarAlumno"
+        android:title="Eliminar Alumno"></item>
+</menu>

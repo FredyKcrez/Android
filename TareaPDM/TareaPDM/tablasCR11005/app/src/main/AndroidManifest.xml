@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="perfildocentes.sv.ues.fia.eisi.tablascr11005" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TablasCR11005Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TutorMenuActivity"
+            android:label="@string/title_activity_tutor_menu" >
+        </activity>
+        <activity
+            android:name=".EncargServSocial"
+            android:label="@string/title_activity_encarg_serv_social" >
+        </activity>
+        <activity
+            android:name=".EncargServSocialMenuActivity"
+            android:label="@string/title_activity_encarg_serv_social_menu" >
+        </activity>
+        <activity
+            android:name=".TutorInsertarActivity"
+            android:label="@string/title_activity_tutor_insertar" >
+        </activity>
+        <activity
+            android:name=".TutorEliminarActivity"
+            android:label="@string/title_activity_tutor_eliminar" >
+        </activity>
+        <activity
+            android:name=".TutorActualizarActivity"
+            android:label="@string/title_activity_tutor_actualizar" >
+        </activity>
+        <activity
+            android:name=".TutorConsultarActivity"
+            android:label="@string/title_activity_tutor_consultar" >
+        </activity>
+        <activity
+            android:name=".EncargServSocialInsertarActivity"
+            android:label="@string/title_activity_encarg_serv_social_insertar" >
+        </activity>
+        <activity
+            android:name=".EncargServSocialEliminarActivity"
+            android:label="@string/title_activity_encarg_serv_social_eliminar" >
+        </activity>
+        <activity
+            android:name=".EncargServSocialConsultarActivity"
+            android:label="@string/title_activity_encarg_serv_social_consultar" >
+        </activity>
+        <activity
+            android:name=".EncargServSocialActualizarActivity"
+            android:label="@string/title_activity_encarg_serv_social_actualizar" >
+        </activity>
+    </application>
+
+</manifest>

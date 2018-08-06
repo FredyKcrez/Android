@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    tools:context="pdm.fia.ues.sv.serviciosocial.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/escuchar"
+                android:id="@+id/textView18" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/ic_btn_speak_now"
+                android:clickable="true"
+                android:onClick="speak" />
+
+        <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="600dp"
+                android:id="@+id/listView3"
+            android:background="#f9041211" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="@string/buscarVoz"
+            android:id="@+id/textView19" />
+
+        <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/speechBtn"
+                android:background="@android:drawable/ic_btn_speak_now"
+                android:clickable="true" />
+
+        </LinearLayout>
+</ScrollView>

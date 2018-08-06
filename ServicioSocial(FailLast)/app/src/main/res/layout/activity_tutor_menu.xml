@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<TabWidget
+			android:id="@android:id/tabs"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/tab1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="1"
+                    android:fillViewport="true" >
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:background="@color/color_menu"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    tools:context=".InsertarTutorActivity">
+
+                    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dip"
+                        android:stretchColumns="1"
+                        android:id="@+id/layoutbase" >
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+                            <TextView android:text="@string/codtutor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <EditText
+                                android:id="@+id/editCodtutor"
+                                android:inputType="text"
+                                android:maxLength="7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView android:text="@string/codespecial"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <EditText
+                                android:id="@+id/editCodespecial"
+                                android:inputType="text"
+                                android:maxLength="7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+                            <TextView android:text="@string/nombre"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <EditText
+                                android:id="@+id/editNombre"
+                                android:inputType="text"
+                                android:maxLength="30"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                            	android:text="@string/apellido"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <EditText
+                                android:id="@+id/editApellido"
+                                android:inputType="text"
+                                android:maxLength="30"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView android:text="@string/cargo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <EditText
+                                android:id="@+id/editCargo"
+                                android:inputType="text"
+                                android:maxLength="30"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView android:text="@string/sexo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <RadioGroup
+                                android:id="@+id/editGrupo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="false"
+                                android:layout_centerHorizontal="true">
+                                <RadioButton
+                                    android:id="@+id/radiobutton1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/generoF" />
+                                <RadioButton
+                                    android:id="@+id/radiobutton2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/generoM" />
+                            </RadioGroup>
+                        </TableRow>
+                    </TableLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="20dp"
+                        android:layout_below="@+id/layoutbase" >
+
+                        <TextView
+                            android:text="@string/msjFoto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/mainimage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:layout_gravity="center_horizontal"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/imagen1"
+                            android:src="@drawable/img_default"
+                            android:clickable="true" />
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal">
+                            <Button
+                                android:layout_marginTop="5dp"
+                                android:onClick="insertarTutor"
+                                android:text="@string/insertar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <Button
+                                android:layout_marginTop="5dp"
+                                android:onClick="limpiarTexto"
+                                android:text="@string/limpiar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="1"
+                    android:fillViewport="true" >
+
+                    <RelativeLayout
+                            xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="@dimen/activity_horizontal_margin"
+                            android:paddingRight="@dimen/activity_horizontal_margin"
+                            android:paddingTop="@dimen/activity_vertical_margin"
+                            android:background="@color/color_menu"
+                            android:paddingBottom="@dimen/activity_vertical_margin" >
+
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                      android:layout_width="fill_parent"
+                                      android:layout_height="fill_parent"
+                                      android:orientation="vertical">
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/codtutor"/>
+                            <EditText
+                                    android:id="@+id/editCodtutor2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="text"
+                                    android:maxLength="7"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/codespecial"/>
+                            <EditText
+                                    android:id="@+id/editCodespecial2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="text"
+                                    android:maxLength="7"/>
+                            <LinearLayout
+                                    android:id="@+id/linearLayout1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content">
+                                <Button
+                                        android:id="@+id/botonConsultar"
+                                        android:layout_marginTop="15dp"
+                                        android:layout_marginBottom="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/consultar"
+                                        android:onClick="consultarTutor"/>
+                                <Button
+                                        android:id="@+id/botonLimpiar"
+                                        android:layout_marginTop="15dp"
+                                        android:layout_marginBottom="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/limpiar"
+                                        android:onClick="limpiarTexto"/>
+                                <Button
+                                        android:id="@+id/eliminar"
+                                        android:layout_marginTop="15dp"
+                                        android:enabled="false"
+                                        android:layout_width="wrap_content"
+                                        android:text="@string/eliminar"
+                                        android:onClick="eliminarTutor"
+                                        android:layout_height="wrap_content"/>
+                                <Button
+                                        android:id="@+id/actualizar"
+                                        android:layout_marginTop="15dp"
+                                        android:enabled="false"
+                                        android:layout_width="wrap_content"
+                                        android:text="@string/actualizar"
+                                        android:onClick="actualizarTutor"
+                                        android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                    android:id="@+id/linearLayout3"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content">
+
+                                <ToggleButton
+                                        android:id="@+id/toggle"
+                                        android:checked="false"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:onClick="activar"/>
+                            </LinearLayout>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/nombre"/>
+                            <EditText
+                                    android:id="@+id/editNombre2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:enabled="false"
+                                    android:inputType="text"
+                                    android:maxLength="30"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/apellido"/>
+                            <EditText
+                                    android:id="@+id/editApellido2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="text"
+                                    android:enabled="false"
+                                    android:maxLength="30"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/cargo"/>
+                            <EditText
+                                    android:id="@+id/editCargo2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="text"
+                                    android:enabled="false"
+                                    android:maxLength="30"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/sexo"/>
+                            <RadioGroup
+                                    android:id="@+id/editGrupo2"
+                                    android:layout_width="200dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginLeft="100dp"
+                                    android:layout_centerHorizontal="true">
+                                <RadioButton
+                                        android:id="@+id/radiobutton3"
+                                        android:enabled="false"
+                                        android:focusable="false"
+                                        android:focusableInTouchMode="false"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/generoF"/>
+                                <RadioButton
+                                        android:id="@+id/radiobutton4"
+                                        android:enabled="false"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/generoF"/>
+                            </RadioGroup>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </ScrollView>
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+</TabHost>

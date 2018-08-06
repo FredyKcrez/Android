@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TablasTarea</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+        <string name="title_activity_tutor_menu">TutorMenuActivity</string>
+        <string name="title_activity_encarg_s">EncargSActivity</string>
+        <string name="title_activity_tutor_insertar">TutorInsertarActivity</string>
+        <string name="title_activity_tutor_eliminar">TutorEliminarActivity</string>
+        <string name="title_activity_tutor_actualizar">TutorActualizarActivity</string>
+        <string name="title_activity_tutor_consultar">TutorConsultarActivity</string>
+        <string name="title_activity_encarg_sinsertar">EncargSInsertarActivity</string>
+        <string name="title_activity_encarg_seliminar">EncargSEliminarActivity</string>
+        <string name="title_activity_encarg_sactualizar">EncargSActualizarActivity</string>
+        <string name="title_activity_encarg_sconsultar">EncargSConsultarActivity</string>
+    <string name="tutor_menu">Funcion a ejecutar Tutor</string>
+    <string name="encarg_s_menu">Funcion a ejecutar Encargado Servicio Social</string>
+    <string name="insertar_registro">Insertar Registro</string>
+    <string name="eliminar_registro">Eliminar Registro</string>
+    <string name="consultar_registro">Consultar Registro</string>
+    <string name="actualizar_registro">Actualizar Registro</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="codtutor">Codigo Tutor</string>
+    <string name="codespecial">Codigo Especialidad</string>
+    <string name="cargo">Cargo</string>
+    <string name="correo">Correo</string>
+    <string name="sexo">Sexo</string>
+    <string name="codencarg">Codigo Encargado</string>
+    <string name="insertar">Insertar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="consultar">Consultar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="opciones">Opciones</string>
+    <color name="color_menu">#8FBC8B</color>
+    <color name="color_menu1">#FFFFFF</color>
+</resources>

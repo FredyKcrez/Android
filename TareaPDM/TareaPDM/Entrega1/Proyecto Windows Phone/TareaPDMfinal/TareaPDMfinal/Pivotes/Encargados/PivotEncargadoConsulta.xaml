@@ -1,0 +1,62 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="TareaPDMfinal.Pivotes.Encargados.PivotEncargadoConsulta"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot es la cuadrícula raíz donde se coloca todo el contenido de la página-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Control Pivot-->
+        <phone:Pivot Title="TABLA ENCARGADO" x:Name="pivotPrincipal">
+            <!--Elemento Pivot uno-->
+            <phone:PivotItem Header="Consultar" x:Name="itemConsulta">
+                <StackPanel Margin="0,0,0,17">
+                    <Grid Height="591">
+                        <TextBlock Text="Codigo :" HorizontalAlignment="Left" Margin="28,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" />
+                        <TextBox x:Name="editCodigo" HorizontalAlignment="Left" Height="72" Margin="113,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Background="White"/>
+                        <TextBlock Text="Nombre :" HorizontalAlignment="Left" Margin="26,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <TextBox x:Name="editNombre" HorizontalAlignment="Left" Height="72" Margin="113,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" Background="White" IsReadOnly="True" />
+                        <TextBlock Text="Apellido :" HorizontalAlignment="Left" Margin="28,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" />
+                        <TextBox x:Name="editApellido" HorizontalAlignment="Left" Height="72" Margin="113,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" Background="White" IsReadOnly="True"/>
+                        <TextBlock Text="Correo :" HorizontalAlignment="Left" Margin="28,337,0,0" TextWrapping="Wrap" VerticalAlignment="Top" />
+                        <TextBox x:Name="editCorreo" HorizontalAlignment="Left" Height="72" Margin="113,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" Background="White" IsReadOnly="True"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="28,395,0,0" TextWrapping="Wrap" Text="Sexo :" VerticalAlignment="Top"/>
+                        <RadioButton x:Name="radioHombre" Content="Hombre" HorizontalAlignment="Left" Margin="113,371,0,0" VerticalAlignment="Top" Checked="radioHombre_Checked"/>
+                        <RadioButton x:Name="radioMujer" Content="Mujer" HorizontalAlignment="Left" Margin="282,371,0,0" VerticalAlignment="Top" Checked="radioMujer_Checked"/>
+                        <Button Name="btnConsulta" Content="Consultar" Click="btnConsulta_OnClick" Margin="0,100,286,400" />
+                        <Button x:Name="btnLimpiar" Content="Limpiar" HorizontalAlignment="Left" Margin="170,100,0,0" VerticalAlignment="Top" Click="btnLimpiar_Click" Height="91" Width="239"/>
+                        <TextBlock x:Name="txtResultado" HorizontalAlignment="Center" Margin="0,448,16,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="440" Height="45" TextAlignment="Center"/>
+                        <Button Name="btnMenu" Click="BtnMenu_OnClick" Content="MENU" Margin="147,512,172,0" ></Button>
+                    </Grid>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <!--Elemento Pivot dos-->
+            <phone:PivotItem Header="Registros">
+                <phone:LongListSelector x:Name="listaEncargados" Margin="0,0,-12,0" ItemsSource="{Binding Person}" SelectionChanged="listaEncargados_SelectionChanged">
+                    <phone:LongListSelector.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="0,0,0,17">
+                                <TextBlock Text="{Binding codencarg}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+                                <TextBlock Text="{Binding nombre}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                                <TextBlock Text="{Binding apellido}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                                <TextBlock Text="{Binding correo}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                                <TextBlock Text="{Binding sexo}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </phone:LongListSelector.ItemTemplate>
+                </phone:LongListSelector>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>

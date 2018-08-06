@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pdm.fia.ues.sv.serviciosocial" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ServicioSocialActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".ProyectoActualizarActivity"
+            android:label="@string/title_activity_proyecto_actualizar" >
+        </activity>
+        <activity
+            android:name=".ProyectoEliminarActivity"
+            android:label="@string/title_activity_proyecto_eliminar" >
+        </activity>
+        <activity
+            android:name=".ProyectoConsultarActivity"
+            android:label="@string/title_activity_proyecto_consultar" >
+        </activity>
+        <activity
+            android:name=".ProyectoInsertarActivity"
+            android:label="@string/title_activity_proyecto_insertar" >
+        </activity>
+        <activity
+            android:name=".TipoProyectoActualizarActivity"
+            android:label="@string/title_activity_tipo_proyecto_actualizar" >
+        </activity>
+        <activity
+            android:name=".TipoProyectoConsultarActivity"
+            android:label="@string/title_activity_tipo_proyecto_consultar" >
+        </activity>
+        <activity
+            android:name=".TipoProyectoInsertarActivity"
+            android:label="@string/title_activity_tipo_proyecto_insertar" >
+        </activity>
+        <activity
+            android:name=".TipoProyectoEliminarActivity"
+            android:label="@string/title_activity_tipo_proyecto_eliminar" >
+        </activity>
+        <activity
+            android:name=".ProyectoMenuActivity"
+            android:label="@string/title_activity_proyecto_menu" >
+        </activity>
+        <activity
+            android:name=".TipoProyectoMenuActivity"
+            android:label="@string/title_activity_tipo_proyecto_menu" >
+        </activity>
+        <activity
+            android:name=".EntidadActualizarActivity"
+            android:label="@string/title_activity_entidad_actualizar" >
+        </activity>
+        <activity
+            android:name=".EntidadEliminarActivity"
+            android:label="@string/title_activity_entidad_eliminar" >
+        </activity>
+        <activity
+            android:name=".EntidadInsertarActivity"
+            android:label="@string/title_activity_entidad_insertar" >
+        </activity>
+        <activity
+            android:name=".EntidadConsultarActivity"
+            android:label="@string/title_activity_entidad_consultar" >
+        </activity>
+        <activity
+            android:name=".EntidadMenuActivity"
+            android:label="@string/title_activity_entidad_menu" >
+        </activity>
+        <activity
+            android:name=".EspecialidadMenuActivity"
+            android:label="@string/title_activity_especialidad_menu" >
+        </activity>
+        <activity
+            android:name=".EspecialidadActualizarActivity"
+            android:label="@string/title_activity_especialidad_actualizar" >
+        </activity>
+        <activity
+            android:name=".EspecialidadEliminarActivity"
+            android:label="@string/title_activity_especialidad_eliminar" >
+        </activity>
+        <activity
+            android:name=".EspecialidadConsultarActivity"
+            android:label="@string/title_activity_especialidad_consultar" >
+        </activity>
+        <activity
+            android:name=".EspecialidadInsertarActivity"
+            android:label="@string/title_activity_especialidad_insertar" >
+        </activity>
+        <activity
+            android:name=".ModalidadMenuActivity"
+            android:label="@string/title_activity_modalidad_menu" >
+        </activity>
+        <activity
+            android:name=".ModalidadActualizarActivity"
+            android:label="@string/title_activity_modalidad_actualizar" >
+        </activity>
+        <activity
+            android:name=".ModalidadConsultarActivity"
+            android:label="@string/title_activity_modalidad_consultar" >
+        </activity>
+        <activity
+            android:name=".ModalidadEliminarActivity"
+            android:label="@string/title_activity_modalidad_eliminar" >
+        </activity>
+        <activity
+            android:name=".ModalidadInsertarActivity"
+            android:label="@string/title_activity_modalidad_insertar" >
+        </activity>
+        <activity
+            android:name=".TipoActividadActualizarActivity"
+            android:label="@string/title_activity_tipo_actividad_actualizar" >
+        </activity>
+        <activity
+            android:name=".TipoActividadConsultarActivity"
+            android:label="@string/title_activity_tipo_actividad_consultar" >
+        </activity>
+        <activity
+            android:name=".TipoActividadEliminarActivity"
+            android:label="@string/title_activity_tipo_actividad_eliminar" >
+        </activity>
+        <activity
+            android:name=".TipoActividadInsertarActivity"
+            android:label="@string/title_activity_tipo_actividad_insertar" >
+        </activity>
+        <activity
+            android:name=".TipoActividadMenuActivity"
+            android:label="@string/title_activity_tipo_actividad_menu" >
+        </activity>
+        <activity
+            android:name=".EncargSActivity"
+            android:label="@string/title_activity_encarg_s" >
+        </activity>
+        <activity
+            android:name=".EncargSActualizarActivity"
+            android:label="@string/title_activity_encarg_sactualizar" >
+        </activity>
+        <activity
+            android:name=".EncargSConsultarActivity"
+            android:label="@string/title_activity_encarg_sconsultar" >
+        </activity>
+        <activity
+            android:name=".EncargSEliminarActivity"
+            android:label="@string/title_activity_encarg_seliminar" >
+        </activity>
+        <activity
+            android:name=".EncargSInsertarActivity"
+            android:label="@string/title_activity_encarg_sinsertar" >
+        </activity>
+        <activity
+            android:name=".TutorActualizarActivity"
+            android:label="@string/title_activity_tutor_actualizar" >
+        </activity>
+        <activity
+            android:name=".TutorConsultarActivity"
+            android:label="@string/title_activity_tutor_consultar" >
+        </activity>
+        <activity
+            android:name=".TutorEliminarActivity"
+            android:label="@string/title_activity_tutor_eliminar" >
+        </activity>
+        <activity
+            android:name=".TutorInsertarActivity"
+            android:label="@string/title_activity_tutor_insertar" >
+        </activity>
+        <activity
+            android:name=".TutorMenuActivity"
+            android:label="@string/title_activity_tutor_menu" >
+        </activity>
+        <activity
+            android:name=".ConsultarActividad"
+            android:label="@string/title_activity_consultar_actividad" >
+        </activity>
+        <activity
+            android:name=".ConsultarAlum_Pro"
+            android:label="@string/title_activity_consultar_alum__pro" >
+        </activity>
+        <activity
+            android:name=".ConsultarAlumno"
+            android:label="@string/title_activity_consultar_alumno" >
+        </activity>
+        <activity
+            android:name=".EliminarActividad"
+            android:label="@string/title_activity_eliminar_actividad" >
+        </activity>
+        <activity
+            android:name=".EliminarAlum_Pro"
+            android:label="@string/title_activity_eliminar_alum__pro" >
+        </activity>
+        <activity
+            android:name=".EliminarAlumno"
+            android:label="@string/title_activity_eliminar_alumno" >
+        </activity>
+        <activity
+            android:name=".IngresarAlumno"
+            android:label="@string/title_activity_ingresar_alumno" >
+        </activity>
+        <activity
+            android:name=".InsertarActividad"
+            android:label="@string/title_activity_insertar_actividad" >
+        </activity>
+        <activity
+            android:name=".InsertarAlum_Pro"
+            android:label="@string/title_activity_insertar_alum__pro" >
+        </activity>
+        <activity
+            android:name=".MainAlumno"
+            android:label="@string/title_activity_main_alumno" >
+        </activity>
+        <activity
+            android:name=".MainAlumnoProyecto"
+            android:label="@string/title_activity_main_alumno_proyecto" >
+        </activity>
+        <activity
+            android:name=".MenuActividad"
+            android:label="@string/title_activity_menu_actividad" >
+        </activity>
+        <activity
+            android:name=".ModificarActividad"
+            android:label="@string/title_activity_modificar_actividad" >
+        </activity>
+        <activity
+            android:name=".ModificarAlum_Pro"
+            android:label="@string/title_activity_modificar_alum__pro" >
+        </activity>
+        <activity
+            android:name=".ModificarAlumno"
+            android:label="@string/title_activity_modificar_alumno" >
+        </activity>
+        <activity
+            android:name=".MostrarActividad"
+            android:label="@string/title_activity_mostrar_actividad" >
+        </activity>
+        <activity
+            android:name=".MostrarAlum_Pro"
+            android:label="@string/title_activity_mostrar_alum__pro" >
+        </activity>
+        <activity
+            android:name=".MostrarAlumno"
+            android:label="@string/title_activity_mostrar_alumno" >
+        </activity>
+    </application>
+
+</manifest>

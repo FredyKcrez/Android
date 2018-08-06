@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fredykcrez.basededatoscr11005" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".BaseDeDatosCR11005Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AlumnoMenuActivity"
+            android:label="@string/title_activity_alumno_menu" >
+        </activity>
+        <activity
+            android:name=".NotaMenuActivity"
+            android:label="@string/title_activity_nota_menu" >
+        </activity>
+        <activity
+            android:name=".MateriaMenuActivity"
+            android:label="@string/title_activity_materia_menu" >
+        </activity>
+        <activity
+            android:name=".AlumnoInsertarActivity"
+            android:label="@string/title_activity_alumno_insertar" >
+        </activity>
+        <activity
+            android:name=".AlumnoEliminarActivity"
+            android:label="@string/title_activity_alumno_eliminar" >
+        </activity>
+        <activity
+            android:name=".AlumnoActualizarActivity"
+            android:label="@string/title_activity_alumno_actualizar" >
+        </activity>
+        <activity
+            android:name=".AlumnoConsultarActivity"
+            android:label="@string/title_activity_alumno_consultar" >
+        </activity>
+        <activity
+            android:name=".NotaInsertarActivity"
+            android:label="@string/title_activity_nota_insertar" >
+        </activity>
+        <activity
+            android:name=".NotaEliminarActivity"
+            android:label="@string/title_activity_nota_eliminar" >
+        </activity>
+        <activity
+            android:name=".NotaActualizarActivity"
+            android:label="@string/title_activity_nota_actualizar" >
+        </activity>
+        <activity
+            android:name=".NotaConsultarActivity"
+            android:label="@string/title_activity_nota_consultar" >
+        </activity>
+        <activity
+            android:name=".MateriaEliminarActivity"
+            android:label="@string/title_activity_materia_eliminar" >
+        </activity>
+        <activity
+            android:name=".MateriaInsertarActivity"
+            android:label="@string/title_activity_materia_insertar" >
+        </activity>
+        <activity
+            android:name=".MateriaActualizarActivity"
+            android:label="@string/title_activity_materia_actualizar" >
+        </activity>
+        <activity
+            android:name=".MateriaConsultarActivity"
+            android:label="@string/title_activity_materia_consultar" >
+        </activity>
+    </application>
+
+</manifest>

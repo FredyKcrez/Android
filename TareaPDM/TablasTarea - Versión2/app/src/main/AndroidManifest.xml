@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fredykcrez.tablastarea" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TablasTareaActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TutorMenuActivity"
+            android:label="@string/title_activity_tutor_menu" >
+        </activity>
+        <activity
+            android:name=".EncargSActivity"
+            android:label="@string/title_activity_encarg_s" >
+        </activity>
+        <activity
+            android:name=".TutorInsertarActivity"
+            android:label="@string/title_activity_tutor_insertar" >
+        </activity>
+        <activity
+            android:name=".TutorEliminarActivity"
+            android:label="@string/title_activity_tutor_eliminar" >
+        </activity>
+        <activity
+            android:name=".TutorActualizarActivity"
+            android:label="@string/title_activity_tutor_actualizar" >
+        </activity>
+        <activity
+            android:name=".TutorConsultarActivity"
+            android:label="@string/title_activity_tutor_consultar" >
+        </activity>
+        <activity
+            android:name=".EncargSInsertarActivity"
+            android:label="@string/title_activity_encarg_sinsertar" >
+        </activity>
+        <activity
+            android:name=".EncargSEliminarActivity"
+            android:label="@string/title_activity_encarg_seliminar" >
+        </activity>
+        <activity
+            android:name=".EncargSActualizarActivity"
+            android:label="@string/title_activity_encarg_sactualizar" >
+        </activity>
+        <activity
+            android:name=".EncargSConsultarActivity"
+            android:label="@string/title_activity_encarg_sconsultar" >
+        </activity>
+    </application>
+
+</manifest>

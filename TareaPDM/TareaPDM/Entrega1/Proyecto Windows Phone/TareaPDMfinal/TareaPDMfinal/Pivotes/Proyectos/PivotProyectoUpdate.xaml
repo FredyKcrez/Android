@@ -1,0 +1,64 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="TareaPDMfinal.Pivotes.Proyectos.PivotProyectoUpdate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot es la cuadrícula raíz donde se coloca todo el contenido de la página-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Control Pivot-->
+        <phone:Pivot Title="TABLA PROYECTO" x:Name="pivotPrincipal">
+            <!--Elemento Pivot uno-->
+            <phone:PivotItem Header="Modificar" x:Name="itemUpdate">
+                <StackPanel Margin="0,0,0,17">
+                    <Grid Height="591">
+                        <TextBlock Text="Codigo Proy. :" HorizontalAlignment="Left" Margin="33,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" />
+                        <TextBox x:Name="editCodigop" HorizontalAlignment="Left" Height="72" Margin="177,2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Background="White"/>
+                        <TextBlock Text="Codigo Enc. :" HorizontalAlignment="Left" Margin="32,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <TextBox x:Name="editCodigoe" HorizontalAlignment="Left" Height="72" Margin="177,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Background="White" />
+                        <TextBlock Text="Entidad S. :" HorizontalAlignment="Left" Margin="33,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" />
+                        <TextBox x:Name="editEntidad" HorizontalAlignment="Left" Height="72" Margin="177,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" Background="White"/>
+                        <TextBlock Text="Tipo Proy. :" HorizontalAlignment="Left" Margin="33,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" />
+                        <TextBox x:Name="editTipo" HorizontalAlignment="Left" Height="72" Margin="177,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" Background="White"/>
+                        <TextBlock Text="Nombre Proy. :" HorizontalAlignment="Left" Margin="32,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5"/>
+                        <TextBox x:Name="editNombre" HorizontalAlignment="Left" Height="72" Margin="177,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" Background="White" />
+                        <TextBlock Text="Cantidad Alum. :" HorizontalAlignment="Left" Margin="32,392,0,0" TextWrapping="Wrap" VerticalAlignment="Top" />
+                        <TextBox x:Name="editCantidad" HorizontalAlignment="Left" Height="71" Margin="177,367,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" Background="White"/>
+                        <Button Click="BtnUpdate_OnClick" Content="Modificar" Name="btnUpdate" Margin="10,512,284,0" />
+                        <Button x:Name="btnLimpiar" Content="Limpiar" HorizontalAlignment="Left" Margin="177,512,0,0" VerticalAlignment="Top" Click="btnLimpiar_Click" Height="79" Width="142"/>
+                        <TextBlock x:Name="txtResultado" HorizontalAlignment="Center" Margin="10,443,6,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="440" Height="51" TextAlignment="Center"/>
+                        <Button Name="btnMenu" Click="BtnMenu_OnClick" Content="MENU" Margin="319,512,0,0" ></Button>
+                    </Grid>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <!--Elemento Pivot dos-->
+            <phone:PivotItem Header="Registros">
+                <phone:LongListSelector x:Name="listaProyectos" Margin="0,0,-12,0" ItemsSource="{Binding Person}" SelectionChanged="listaProyectos_SelectionChanged">
+                    <phone:LongListSelector.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="0,0,0,17">
+                                <TextBlock Text="{Binding codproyecto}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+                                <TextBlock Text="{Binding codencargado}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                                <TextBlock Text="{Binding entidad}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                                <TextBlock Text="{Binding tipoproyecto}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                                <TextBlock Text="{Binding nombreproyecto}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                                <TextBlock Text="{Binding cantalumnos}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </phone:LongListSelector.ItemTemplate>
+                </phone:LongListSelector>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>

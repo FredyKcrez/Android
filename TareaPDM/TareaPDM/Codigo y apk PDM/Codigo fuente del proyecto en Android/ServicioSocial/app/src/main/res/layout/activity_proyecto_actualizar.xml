@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:stretchColumns="1" >
+    <TableRow>
+        <TextView android:text="@string/codigoproyecto" />
+        <EditText
+            android:id="@+id/editCodigoProyecto"
+            android:inputType="text"
+            android:maxLength="10" />
+    </TableRow>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/botonConsultar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consultar"
+            android:onClick="consultarProyecto"/>
+    </LinearLayout>
+    <TableRow>
+        <TextView android:text="@string/proyecto" />
+        <EditText
+            android:id="@+id/editNombreProyecto"
+            android:inputType="text"
+            android:maxLength="100" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/encargado" />
+        <EditText
+            android:id="@+id/editEncargado"
+            android:inputType="text"
+            android:maxLength="10" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/entidad" />
+        <EditText
+            android:id="@+id/editEntidad"
+            android:inputType="text"
+            android:maxLength="10" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/tipoproyecto" />
+        <EditText
+            android:id="@+id/editTipoProyecto"
+            android:inputType="text"
+            android:maxLength="10" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/tutor" />
+        <EditText
+            android:id="@+id/editTutor"
+            android:inputType="text"
+            android:maxLength="50" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/cantidadalumnos" />
+        <EditText
+            android:id="@+id/editCantidadAlumnos"
+            android:inputType="text"
+            android:maxLength="3" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="actualizarProyecto"
+            android:text="@string/actualizar" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="limpiarTexto"
+            android:text="@string/limpiar" />
+    </TableRow>
+</TableLayout>

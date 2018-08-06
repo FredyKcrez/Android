@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TablasCR11005</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tutor_menu">TutorMenuActivity</string>
+    <string name="title_activity_encarg_serv_social">EncargServSocial</string>
+    <string name="title_activity_encarg_serv_social_menu">EncargServSocialMenuActivity</string>
+    <string name="title_activity_tutor_insertar">TutorInsertarActivity</string>
+    <string name="title_activity_tutor_eliminar">TutorEliminarActivity</string>
+    <string name="title_activity_tutor_actualizar">TutorActualizarActivity</string>
+    <string name="title_activity_tutor_consultar">TutorConsultarActivity</string>
+    <string name="title_activity_encarg_serv_social_insertar">EncargServSocialInsertarActivity</string>
+    <string name="title_activity_encarg_serv_social_eliminar">EncargServSocialEliminarActivity</string>
+    <string name="title_activity_encarg_serv_social_consultar">EncargServSocialConsultarActivity</string>
+    <string name="title_activity_encarg_serv_social_actualizar">EncargServSocialActualizarActivity</string>
+    <string name="alumno_menu">Función a Ejecutar Alumno</string>
+    <string name="nota_menu">Función a Ejecutar Nota</string>
+    <string name="materia_menu">Función a Ejecutar Materia</string>
+    <string name="insertar_registro">Insertar Registro</string>
+    <string name="eliminar_registro">Eliminar Registro</string>
+    <string name="consultar_registro">Consultar Registro</string>
+    <string name="actualizar_registro">Actualizar Registro</string>
+    <string name="carnet">Carnet</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="sexo">Sexo</string>
+    <string name="matganadas">Materias Ganadas</string>
+    <string name="insertar">Insertar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="consultar">Consultar</string>
+    <string name="ciclo">Ciclo</string>
+    <string name="notafinal">Nota Final</string>
+    <string name="codmateria">Codigo</string>
+    <string name="unidadesval">Unidades Valorativas</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="codmatnota">Codigo Materia</string>
+    <string name="nommateria">Nombre Materia</string>
+    <string name="opciones">Opciones:</string>
+</resources>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN8-PDM</Machine>
+    <WindowsUser>win8</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>c1cc480a-e2d1-4616-9b30-d3813fd44611</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\bin\Debug\AppCR1100501.exe">
+      <PackagePath>AppCR1100501.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\bin\Debug\AppCR1100501.xr.xml">
+      <PackagePath>AppCR1100501.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\win8\documents\visual studio 2013\Projects\cr11005\AppCR1100501\AppCR1100501\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

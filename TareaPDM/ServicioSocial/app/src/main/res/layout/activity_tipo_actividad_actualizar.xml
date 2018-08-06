@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:stretchColumns="1" >
+    <TableRow>
+        <TextView android:text="@string/codTipoActividad" />
+        <EditText
+            android:id="@+id/editcodigoTipoActividad"
+            android:inputType="text"
+            android:maxLength="8" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/codModalidad" />
+        <EditText
+            android:id="@+id/editcodModalidad"
+            android:inputType="text"
+            android:maxLength="8" />
+    </TableRow>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/botonConsultar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consultar"
+            android:onClick="consultarTipoActividad"/>
+    </LinearLayout>
+    <TableRow>
+        <TextView android:text="@string/costoxhora" />
+        <EditText
+            android:id="@+id/editcostoxHora"
+            android:inputType="text"
+            android:maxLength="8" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/nombTipoActividad" />
+        <EditText
+            android:id="@+id/editnombTipoActividad"
+            android:inputType="text"
+            android:maxLength="30"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:onClick="actualizarNota"
+            android:text="@string/actualizar" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="limpiarTexto"
+            android:text="@string/limpiar" />
+    </TableRow>
+</TableLayout>

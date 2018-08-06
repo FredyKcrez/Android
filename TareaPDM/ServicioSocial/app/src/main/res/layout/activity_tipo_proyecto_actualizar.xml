@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:stretchColumns="1" >
+    <TableRow>
+        <TextView android:text="@string/codigo" />
+        <EditText
+            android:id="@+id/editCodigoTipoProyecto"
+            android:inputType="text"
+            android:maxLength="10" />
+    </TableRow>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/botonConsultar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consultar"
+            android:onClick="consultarTipoProyecto"/>
+    </LinearLayout>
+    <TableRow>
+        <TextView android:text="@string/tipoproyecto" />
+        <EditText
+            android:id="@+id/editTipoProyecto"
+            android:inputType="text"
+            android:maxLength="50" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="actualizarTipoProyecto"
+            android:text="@string/actualizar" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="limpiarTexto"
+            android:text="@string/limpiar" />
+    </TableRow>
+</TableLayout>
